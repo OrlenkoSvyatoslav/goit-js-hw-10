@@ -12,6 +12,7 @@ const dateMinutes = document.querySelector('[data-minutes]');
 const dateSeconds = document.querySelector('[data-seconds]');
 let countInterval;
 let userSelectedDate;
+startBtn.setAttribute('disabled', '');
 
 const options = {
   enableTime: true,
